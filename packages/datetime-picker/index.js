@@ -140,7 +140,7 @@ export default sfc({
         }
       ];
 
-      if (this.type === 'date') result.splice(3, 2);
+      if (this.type === 'date') result.splice(4, 1);
       if (this.type === 'year-month') result.splice(2, 3);
       return result;
     },
